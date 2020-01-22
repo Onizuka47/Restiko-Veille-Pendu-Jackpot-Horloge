@@ -1,0 +1,140 @@
+.lettres{
+    border: white 2px solid;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+    font-size: 1em;
+    color: yellow;
+}
+#pannelTop{
+    height: 300px;
+    width: auto;
+}
+#lastL{
+    position: relative;
+    left: 21%; 
+    width: 70%;
+}
+
+#firstL{
+    position: relative;
+    left: 50%;
+    transform: translate(-44%);
+}
+#secondeL{
+    position: relative;
+    left: 50%;
+    transform: translate(-44%);
+}
+#pannel{
+    margin-top: 50%;
+    transform: translate(0,-50%);
+}
+h2{
+    text-align: center;
+    border: cornflowerblue solid 1px;
+    border-radius: 5px;
+    display: none;
+}
+#ligne1{
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#ligne2{
+    height: 150px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: 180px;
+    left: 20%;
+    transform: translate(0,-100%);
+}
+#ligne3{
+    height: 2px;
+    width: 40%;
+    background-color: white;
+    position: relative;
+    top: -120px;
+    left: 35%;
+    transform: translate(-50%);
+}
+#ligne4{
+    height: 25px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#ligne5{
+    height: 25px;
+    width: 25px;
+    border: white solid 2px;
+    border-radius: 50%;
+    position: relative;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#ligne6{
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#ligne7{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -123px;
+    left: 47%;
+    transform: rotate(30deg);
+}
+#ligne8{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -163px;
+    left: 53%;
+    transform: rotate(-30deg);
+}
+#ligne9{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -240px;
+    left: 53%;
+    transform: rotate(-30deg);
+}
+#ligne10{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    position: relative;
+    top: -280px;
+    left: 47%;
+    transform: rotate(30deg);
+}
+.solu{
+    border: white solid 1px;
+}
+body{
+    background-color: rgb(32, 30, 30);
+}
+.btn{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

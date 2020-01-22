@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/css/pendu.css" rel="stylesheet" type="text/css">
+
+    <title>Jeu du Pendu</title>
+
+</head>
+<body>
+
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(41, 41, 41);" id="navBar">
+        <a class="navbar-brand" href="#">Jeu du pendu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="../index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="pendu/pendu.html">Jeu du pendu</a>
+            <a class="nav-item nav-link" href="#">Jackpot</a>
+          </div>
+        </div>
+      </nav>
+      <!--end:Nav Bar-->
+
+      <!--buttonRetour-->
+      <a id="retour" href="../index.html" class="btn btn-secondary">&#8668; retour</a>
+
+    <!--pannel-->
+    <div class="container pannel" id="pannel">
+
+        <div class="pannel border" id="pannelTop">
+            <div>
+                <h2 id="win">Win</h2>
+                <h2 id="lose">Lose</h2>
+
+            </div>
+            <!--draw-->
+            <div>
+                <div id="ligne1"></div>
+                <div id="ligne2"></div>
+                <div id="ligne3"></div>
+                <div id="ligne4"></div>
+                <div id="ligne5"></div>
+                <div id="ligne6"></div>
+                <div id="ligne7"></div>
+                <div id="ligne8"></div>
+                <div id="ligne9"></div>
+                <div id="ligne10"></div>
+            </div>
+            
+        </div>
+
+        <div class="pannel border" id="pannelBottom">
+            <div class="row" id="firstL">
+                <div value="A" class="col-1 lettres">A</div>
+                <div value="Z" class="col-1 lettres">Z</div>
+                <div value="E" class="col-1 lettres ">E</div>
+                <div value="R" class="col-1 lettres ">R</div>
+                <div value="T" class="col-1 lettres ">T</div>
+                <div value="Y" class="col-1 lettres ">Y</div>
+                <div value="U" class="col-1 lettres ">U</div>
+                <div value="I" class="col-1 lettres ">I</div>
+                <div value="O" class="col-1 lettres ">O</div>
+                <div value="P" class="col-1 lettres ">P</div>
+            </div>
+            <div class="row" id="secondeL">
+                <div value="Q" class="col-1 lettres">Q</div>
+                <div value="S" class="col-1 lettres">S</div>
+                <div value="D" class="col-1 lettres">D</div>
+                <div value="F" class="col-1 lettres">F</div>
+                <div value="G" class="col-1 lettres">G</div>
+                <div value="H" class="col-1 lettres">H</div>
+                <div value="J" class="col-1 lettres">J</div>
+                <div value="K" class="col-1 lettres">K</div>
+                <div value="L" class="col-1 lettres">L</div>
+                <div value="M" class="col-1 lettres">M</div>
+            </div>
+            <div class="row" id="lastL">
+                <div value="W" class="col-1 lettres">W</div>
+                <div value="X" class="col-1 lettres">X</div>
+                <div value="C" class="col-1 lettres">C</div>
+                <div value="V" class="col-1 lettres">V</div>
+                <div value="B" class="col-1 lettres">B</div>
+                <div value="N" class="col-1 lettres">N</div>
+                
+            </div>
+        </div>
+            
+        
+    </div>
+    <!--end:pannel-->
+
+
+
+    <script src="assets/js/pendu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

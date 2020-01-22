@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <title>Application</title>
+  </head>
+  <body>
+
+
+    <!-- Main Form -->
+<div class="container border pt-3 pb-3" style="border-radius: 1em;" id="MainForm">
+    <h1 style="text-align: center;">Connexion</h1>
+	<div class="login-form-1">
+		<form id="login-form" class="text-left">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="lg_username" class="sr-only">Identifiant</label>
+						<input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="Identifiant">
+					</div>
+					<div class="form-group">
+						<label for="lg_password" class="sr-only">Mot de passe</label>
+						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="Mot de passe">
+					</div>
+					<div class="form-group login-group-checkbox">
+						<input type="checkbox" id="lg_remember" name="lg_remember">
+						<label for="lg_remember">Se souvenir de moi?</label>
+					</div>
+				</div>
+                <button type="button" class="btn btn-outline-dark">Se connecter</button>
+			</div>
+		</form>
+    </div>
+</div>    
+    <!-- end:Main Form -->
+    
+
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(41, 41, 41);" id="navBar">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="pendu/pendu.html">Jeu du pendu</a>
+          <a class="nav-item nav-link" href="#">Jackpot</a>
+        </div>
+      </div>
+    </nav>
+    <!--end:Nav Bar-->
+
+
+    <!--button Veilles/Restiko-->
+    <div class="container-fluid text-center" id="bouttonChoix">
+        <button id="showVeille" type="button" class="btn btn-outline-primary col-5">Veilles</button>
+        <button id="showRestiko" type="button" class="btn btn-outline-danger col-5">Restiko</button>
+
+        <!--horloge-->
+          <iframe src="Horloge/horloge.html" id="horloge"></iframe>
+        <!--end:horloge-->
+
+    </div>
+    <!--end:button Veilles/Restiko-->
+
+
+    <!--button Retour/Creer restiko-->
+    <div class="container-fluid text-center" id="bouttonRCR">
+        <button id="retourRCR" type="button" class="btn btn-secondary">&#8592</button>
+        <button id="creerRCR" type="button" class="btn btn-danger">+</button>
+    </div>
+    <!--end:button Retour/Creer restiko--> 
+
+
+    <!--button Retour/Creer veilles-->
+    <div class="container-fluid text-center" id="bouttonRCV">
+        <button id="retourRCV" type="button" class="btn btn-secondary">&#8592</button>
+        <button id="creerRCV" type="button" class="btn btn-primary">+</button>
+          
+    </div>
+    <!--end:button Retour/Creer veilles-->
+
+
+    <!--TemplateRestiko-->
+    <div class="container" id="templateRestiko">
+      <div id="titleR">
+        <h3 style="text-align: center; color: white;">Restiko</h3>
+      </div>
+    </div>
+
+
+    
+    <!--end:TemplateRestiko-->
+
+    <!--TemplateVeille-->
+
+    <div class="container" id="templateVeille">
+      <div id="titleV">
+        <h3 style="text-align: center; color: white;">Veille</h3>
+      </div>
+    </div>
+    <!--end:TemplateVeille-->
+
+
+    <!--formRetiko-->
+    <div class="container border border-danger" style="border-radius: 1em;" id="formRestiko">
+      <h2 style="text-align: center;">Restiko</h2>
+      <div class="form-group">
+        <label for="formGroupExampleInput1">Date</label>
+        <input style="border-color: red;" type="date" class="form-control" id="formGroupExampleInput1" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Nom</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Narii Teriipaia">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput3">Ce que j'ai fais</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput3" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput4">Ce que j'ai appris</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput4" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput5">Ce que j'ai aimé</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput5" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput6">Ce que j'ai utilisé de nouveaux</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput6" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput7">Problématique</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput7" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput8">Objectifs</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput8" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput9">Qu'est-ce qui m'a manqué</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput9" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput10">Que ferais tu à place du formateur</label>
+        <input style="border-color: red;" type="text" class="form-control" id="formGroupExampleInput10" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput11">Objectif atteind ou pas</label>
+        <select style="border-color: red;" class="form-control" id="exampleFormControlSelect11">
+          <option value="Oui">Oui</option>
+          <option value="Non">Non</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput12">note /5</label>
+        <select style="border-color: red;" class="form-control" id="exampleFormControlSelect12">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div style="text-align: center;">
+      <button style="color: white;" id="btnRetourFormRestiko" type="button" class="btn btn-outline-dark">&#8592</button>
+      <button id="btnValiderFormRestiko" type="button" class="btn btn-outline-danger" onclick="createRestiko()">Valider</button>
+      </div>
+    </div>
+    <!--end:formRestiko-->
+
+
+    <!--formVeille-->
+    <div class="container border border-primary" style="border-radius: 1em;" id="formVeille">
+      <h2 style="text-align: center;">Veille</h2>
+      <div class="form-group">
+        <label for="formGroupExampleInput01 ">Date</label>
+        <input style="border-color: blue;" type="date" class="form-control" id="formGroupExampleInput01" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput02">Coder</label>
+        <input style="border-color: blue;" type="text" class="form-control" id="formGroupExampleInput02" placeholder="Narii Teriipaia">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput03">Subject</label>
+        <input style="border-color: blue;" type="text" class="form-control" id="formGroupExampleInput03" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput04">Links</label>
+        <input style="border-color: blue;" type="text" class="form-control" id="formGroupExampleInput04" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput05">Synthesis</label>
+        <input style="border-color: blue;" type="text" class="form-control" id="formGroupExampleInput05" placeholder="Example input">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput06">Comment</label>
+        <input style="border-color: blue;" type="text" class="form-control" id="formGroupExampleInput06" placeholder="Example input">
+      </div>
+      <div id="btnRVV" style="text-align: center;">
+      <button id="btnRetourFormVeille" type="button" class="btn btn-outline-dark">&#8592</button>
+      <button onclick="createVeille()" id="btnValiderFormVeille" type="button" class="btn btn-outline-primary">Valider</button>
+      </div>
+    </div>
+    <!--end:formVeille-->
+
+   
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/airtable.browser.js"></script>
+    <script src="assets/js/airtableAPI.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/jquery.simplePagination.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>

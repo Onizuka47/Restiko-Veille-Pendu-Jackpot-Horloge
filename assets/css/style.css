@@ -1,0 +1,132 @@
+#MainForm, #bouttonRCR, #bouttonRCV, #formVeille ,#formRestiko, #templateVeille, #templateRestiko,.resumeVeille,.resumeRestiko,.iconEye22,.iconEye12{
+    display: none;
+}
+.iconEye, #iconSetting, .iconEye1, .iconEye12,.iconEye22{
+    position: relative;
+    height: 30px;
+    bottom: 25px;
+    left: 75%;
+    margin: 5px;
+}
+#showVeille, #showRestiko, #retourRCR, #creerRCR, #creerRCV,#retourRCV,#btnRetourFormRestiko,#btnValiderFormRestiko,#btnValiderFormVeille,#btnRetourFormVeille{
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+#bouttonChoix{
+    position: relative;
+    top: 20px;
+}
+#btnRetourFormRestiko,#btnValiderFormRestiko,#btnValiderFormVeille,#btnRetourFormVeille{
+    width: 40%;
+}
+body{
+    background-color: rgb(32, 31, 31);
+}
+#navBar{
+    box-shadow: 10px 10px 20px rgb(32, 31, 31,0.8);
+}
+p,h1,h2,label{
+    color: white;
+}
+#bouttonRCR,#bouttonRCV{
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    right: 15px;
+    margin: auto;
+    z-index: 1;
+}
+
+#retourRCR,#retourRCV{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+    z-index: 998;
+}
+#creerRCR,#creerRCV{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: blanchedalmond;
+    z-index: 999;
+
+}
+.resumeRestiko h3{
+    color: rgb(220, 53, 69);
+    border-top: rgb(220, 53, 69) solid 1px;
+}
+.resumeVeille h3{
+    color: rgb(0, 123, 254);
+    border-top: rgb(0, 123, 254) solid 1px;
+}
+.resumeVeille {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.resumeRestiko{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#titleR{  
+    position: fixed;
+    left: 50%;
+    top: 70px; 
+    margin: auto;
+    transform: translate(-50%);
+    z-index: 1;
+    background-color: rgb(220, 53, 69); 
+    margin-top: 4px;
+    padding: 1em;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    min-width: 300px;
+    border-radius: 1em;
+
+
+}
+#titleV{
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    z-index: 1;
+    background-color: rgb(0, 123, 254);
+    margin-top: 4px;
+    box-shadow: 10px 5px 20px rgb(0, 0, 0,0.8);
+    min-width: 300px;
+    margin: auto;
+    padding: 1em;
+    transform: translateX(-150px);
+    border-radius: 1em;
+}
+#navBar{
+    position: fixed;
+    width: 100%;
+    z-index: 997;
+    top: 0px;
+}
+#templateVeille, #templateRestiko{
+    margin-top: 8em;
+    margin-bottom: 5em;
+    padding: 1em;
+}
+#bouttonChoix{
+    margin-top: 3em;
+}
+#tempV,#tempR{
+    box-shadow: 10px 10px 20px rgb(0, 0, 0,0.5);
+}
+#horloge{
+    z-index: -1;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: black;
+}
+
+
